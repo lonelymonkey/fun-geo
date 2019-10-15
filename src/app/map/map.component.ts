@@ -16,7 +16,6 @@ import { Options as TranslateOptions } from 'ol/interaction/Translate';
 import { Options as PointerInteractionOptions } from 'ol/interaction/Pointer';
 import { containsExtent, boundingExtent, Extent } from 'ol/extent';
 
-
 export class PolygonTranslateInteraction extends Translate {
   constructor( opt_options?: TranslateOptions ) {
     super(opt_options);
@@ -101,8 +100,6 @@ const polygonFeature2 = new Feature(
     [-5e6, 2e6]
   ]])
 );
-
-
 
 @Component({
   selector: 'app-map',
