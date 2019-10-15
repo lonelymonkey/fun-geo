@@ -116,7 +116,6 @@ export class MapComponent implements OnInit {
   viewPortBox: ViewPortBox;
 
   constructor(
-    private mapService: MapService
   ) {
   }
 
